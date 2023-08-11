@@ -15,7 +15,7 @@ const Contact = () => {
   const { scrollYProgress } = useScroll();
   const validate = Yup.object({
     from_name: Yup.string()
-      .max(15, "should be less than 15 Characters")
+      .max(20, "should be less than 20 Characters")
       .min(3, "should be more than 3 Characters")
       .required("Required"),
     from_email: Yup.string()
@@ -26,13 +26,13 @@ const Contact = () => {
       .min(6, "should be more than 6 Characters")
       .required("Required"),
     message: Yup.string()
-      .max(100, "should be less than 100 Characters")
+      .max(200, "should be less than 200 Characters")
       .min(10, "should be more than 10 Characters")
       .required("Required"),
   })
 
   const sendEmail = () => {
-    emailjs.sendForm('service_vf9pvao', 'template_w7ynt0c', form.current, '7Oiuvv6FXhdHoWf0J')
+    emailjs.sendForm('service_jtbqdqj', 'template_3zbmrab', form.current, 'RpwhhGrecLpaALP5m')
       .then((result) => {
         toast.success("Wow so easy, thank for contacting!");
         console.log(result);
