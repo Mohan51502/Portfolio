@@ -38,11 +38,11 @@ const Home = () => {
             </p>
           </h1>
           <p className="home__description">
-            A highly motivated and adaptable professional seeking to transition into a new career in Software profession. I am eager
-            to leverage my transferable skills and passion for IT industry to make a positive impact in a new role. I am confident in
-            my ability to excel in a new environment and contribute to the success of my team and organization. I am committed to
-            continuous learning and development, and excited to embrace new challenges and opportunities in my career
-            transition.
+          I am a highly motivated and adaptable professional seeking to transition into a new career in the software profession. I
+am eager to leverage my transferable skills and passion for the IT industry to make a positive impact in a new role. I am
+confident in my ability to excel in a new environment and contribute to the success of my team and organisation. I am
+committed to continuous learning and development and excited to embrace new challenges and opportunities in my
+career.
 
           </p>
           <Link to="/about" className='button'>
