@@ -291,22 +291,22 @@ import {
     {
       id: 2,
       img: Work2,
-      title: 'URL Shortener',
+      title: 'Cash-Manager',
       details: [
         {
           icon: <FiFileText />,
           title: 'Description : ',
-          desc: 'Enter Your URL and it will return Short URL',
+          desc: 'Calculate your expense annd income',
         },
         {
           icon: <FiExternalLink />,
           title: 'Code : ',
-          desc: 'https://github.com/Mohan51502/Day44frontend.git',
+          desc: 'https://github.com/Mohan51502/expanse-frontend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'https://tiny-kelpie-da0ce1.netlify.app',
+          desc: 'https://soft-daifuku-49e886.netlify.app',
         },
         {
           icon: <FaCode />,
