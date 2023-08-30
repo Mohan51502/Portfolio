@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from "../../assets/images3.jpeg";
+import Profile from "../../assets/hiimage.jpg";
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import "./home.css";
@@ -23,7 +23,7 @@ const Home = () => {
         style={{ scaleX: scrollYProgress }}
       />
       <Fade className='zIndex'>
-        <img src={Profile} alt="" className='home__img' />
+        <img src='https://i.etsystatic.com/15809011/r/il/06dba3/3191137306/il_1140xN.3191137306_4j2h.jpg' alt="" className='home__img' />
       </Fade>
       <div className="home__content">
         <div className="home__data">

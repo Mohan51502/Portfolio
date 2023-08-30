@@ -15,6 +15,22 @@ import {
   import Work4 from './assets/project-4.jpeg';
   import Work5 from './assets/project-5.jpeg';
   import Work9 from './assets/project-6.jpg';
+    import Work7 from './assets/project-7.jpg';
+    import Work8 from './assets/nationalizeapi.webp';
+    import Work10 from './assets/restcountries.png';
+    import Work11 from './assets/crudimage.webp';
+    import Work12 from './assets/shoppingapp.jpg';
+    import Work13 from './assets/tirukural.png';
+    import Work14 from './assets/zenclass.jpg';
+    import Work15 from './assets/expenses.jpg';
+
+
+
+
+
+
+
+
   
   import Theme1 from './assets/purple.png';
   import Theme2 from './assets/red.png';
@@ -236,7 +252,7 @@ import {
   export const portfolio = [
     {
       id: 1,
-      img: Work1,
+      img: Work14,
       title: 'Zen Class Query Ticketing System',
       details: [
         {
@@ -262,35 +278,36 @@ import {
       ],
     },
     {
-      id: 9,
-      img: Work9,
-      title: 'Nationalize API',
+      id: 3,
+      img: Work11,
+      title: 'Crud App',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Description : ',
-          desc: 'Enter your name and see the probability',
+          title: 'Description: ',
+          desc: 'Add ,Update or Delete User from DB',
         },
         {
           icon: <FiExternalLink />,
           title: 'Code : ',
-          desc: 'https://github.com/Mohan51502/webcode1.git',
+          desc: 'https://github.com/Mohan51502/crud-frontend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'https://boisterous-cannoli-3f1494.netlify.app/',
+          desc: 'https://dynamic-kataifi-96cdf0.netlify.app/',
         },
         {
           icon: <FaCode />,
           title: 'Tech Used : ',
-          desc: 'HTML, CSS ,javascript',
+          desc: ' React js, Node js,Mongodb',
         },
+  
       ],
     },
     {
       id: 2,
-      img: Work2,
+      img: Work15,
       title: 'Cash-Manager',
       details: [
         {
@@ -316,8 +333,38 @@ import {
       ],
     },
     {
-      id: 3,
-      img: Work3,
+      id: 9,
+      img: Work8,
+      title: 'Nationalize API',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Description : ',
+          desc: 'Enter your name and see the probability',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Code : ',
+          desc: 'https://github.com/Mohan51502/webcode1.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://boisterous-cannoli-3f1494.netlify.app/',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'HTML, CSS ,javascript',
+        },
+      ],
+    },
+  
+  
+    
+    {
+      id: 4,
+      img: Work10,
       title: 'Rest Countries',
       details: [
         {
@@ -347,7 +394,7 @@ import {
     
     {
       id: 5,
-      img: Work5,
+      img: Work13,
       title: 'Tirukural App',
       details: [
         {
@@ -373,8 +420,8 @@ import {
       ],
     },
     {
-      id: 5,
-      img: Work4,
+      id: 6,
+      img: Work12,
       title: 'Shopping App',
       details: [
         {
