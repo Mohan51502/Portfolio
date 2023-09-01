@@ -23,6 +23,15 @@ import {
     import Work13 from './assets/tirukural.png';
     import Work14 from './assets/zenclass.jpg';
     import Work15 from './assets/expenses.jpg';
+    import Work16 from './assets/chat.webp';
+    import Work17 from './assets/spotifyapp.png';
+    import Work18 from './assets/chatappp.jpg';
+    import Work19 from './assets/spotifyapps.webp';
+    import Work20 from './assets/spotifyclone.webp';
+
+
+
+
 
 
 
@@ -278,7 +287,7 @@ import {
       ],
     },
     {
-      id: 3,
+      id: 2,
       img: Work11,
       title: 'Crud App',
       details: [
@@ -306,7 +315,7 @@ import {
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: Work15,
       title: 'Cash-Manager',
       details: [
@@ -333,7 +342,34 @@ import {
       ],
     },
     {
-      id: 9,
+      id: 4,
+      img: Work18,
+      title: 'Chat App',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Description : ',
+          desc: 'Chat with friends who are present in Our DB',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Code : ',
+          desc: 'https://github.com/Mohan51502/chat-app-frontend.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://lambent-gelato-d12eb5.netlify.app',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'React JS, Node js ,Mongodb',
+        },
+      ],
+    },
+    {
+      id: 5,
       img: Work8,
       title: 'Nationalize API',
       details: [
@@ -359,11 +395,41 @@ import {
         },
       ],
     },
+     
+    {
+      id: 6,
+      img: Work20,
+      title: 'Spotify Clone ',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Description: ',
+          desc: 'Layout of a Spotify App',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Code : ',
+          desc: 'https://github.com/Mohan51502/Spotify-clone.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://clinquant-custard-858be9.netlify.app/',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: ' React js',
+        },
+  
+      ],
+    },
+    
   
   
     
     {
-      id: 4,
+      id: 7,
       img: Work10,
       title: 'Rest Countries',
       details: [
@@ -393,7 +459,7 @@ import {
     
     
     {
-      id: 5,
+      id: 8,
       img: Work13,
       title: 'Tirukural App',
       details: [
@@ -405,12 +471,12 @@ import {
         {
           icon: <FiExternalLink />,
           title: 'Code : ',
-          desc: 'https://github.com/Mohan51502/day21tirukural.git',
+          desc: 'https://github.com/Mohan51502/Tirukural.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'https://mohan51502.github.io/day21tirukural/',
+          desc: 'https://melodious-pika-1f44af.netlify.app/',
         },
         {
           icon: <FaCode />,
@@ -420,7 +486,7 @@ import {
       ],
     },
     {
-      id: 6,
+      id: 9,
       img: Work12,
       title: 'Shopping App',
       details: [
