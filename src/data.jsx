@@ -27,7 +27,7 @@ import {
     import Work17 from './assets/spotifyapp.png';
     import Work18 from './assets/chatappp.jpg';
     import Work19 from './assets/spotifyapps.webp';
-    import Work20 from './assets/spotifyclone.webp';
+    import Work20 from './assets/notes_image.jpeg';
 
 
 
@@ -261,31 +261,33 @@ import {
   export const portfolio = [
     {
       id: 1,
-      img: Work14,
-      title: 'Zen Class Query Ticketing System',
+      img: Work20,
+      title: 'Notes App  ',
       details: [
         {
           icon: <FiFileText />,
-          title: 'Description : ',
-          desc: 'This App can Solve the Doubts for Students by raising the Query and it will be solved by mentor',
+          title: 'Description: ',
+          desc: ' Make a Notes and lead a better Life',
         },
         {
           icon: <FiExternalLink />,
           title: 'Code : ',
-          desc: 'https://github.com/Mohan51502/capstonefrontend.git',
+          desc: 'https://github.com/Mohan51502/Notes_frontend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'https://majestic-yeot-68002b.netlify.app/',
+          desc: 'https://glittering-fairy-e558b7.netlify.app/',
         },
         {
           icon: <FaCode />,
           title: 'Tech Used : ',
-          desc: 'React, Nodejs, MongoDB',
+          desc: ' React js ,Node js, Mongodb',
         },
+  
       ],
     },
+  
     {
       id: 2,
       img: Work11,
@@ -369,6 +371,36 @@ import {
       ],
     },
     {
+      id: 1,
+      img: Work14,
+      title: 'Zen Class Query Ticketing System',
+      details: [
+        {
+          icon: <FiFileText />,
+          title: 'Description : ',
+          desc: 'This App can Solve the Doubts for Students by raising the Query and it will be solved by mentor',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Code : ',
+          desc: 'https://github.com/Mohan51502/capstonefrontend.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Preview : ',
+          desc: 'https://majestic-yeot-68002b.netlify.app/',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'React, Nodejs, MongoDB',
+        },
+      ],
+    },
+    
+     
+   
+    {
       id: 5,
       img: Work8,
       title: 'Nationalize API',
@@ -393,35 +425,6 @@ import {
           title: 'Tech Used : ',
           desc: 'HTML, CSS ,javascript',
         },
-      ],
-    },
-     
-    {
-      id: 6,
-      img: Work20,
-      title: 'Spotify Clone ',
-      details: [
-        {
-          icon: <FiFileText />,
-          title: 'Description: ',
-          desc: 'Layout of a Spotify App',
-        },
-        {
-          icon: <FiExternalLink />,
-          title: 'Code : ',
-          desc: 'https://github.com/Mohan51502/Spotify-clone.git',
-        },
-        {
-          icon: <FiExternalLink />,
-          title: 'Preview : ',
-          desc: 'https://clinquant-custard-858be9.netlify.app/',
-        },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: ' React js',
-        },
-  
       ],
     },
     
