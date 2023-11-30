@@ -388,7 +388,7 @@ import {
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
-          desc: 'https://majestic-yeot-68002b.netlify.app/',
+          desc: 'https://tranquil-profiterole-c07f73.netlify.app/',
         },
         {
           icon: <FaCode />,
