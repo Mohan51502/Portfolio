@@ -107,11 +107,7 @@ import {
       description: 'Indian',
     },
   
-    {
-      id: 5,
-      title: 'Github : ',
-      description: 'MOHAN51502',
-    },
+   
   
     {
       id: 6,
@@ -131,11 +127,7 @@ import {
       description: 'rajmohan51502@mail.com',
     },
   
-    {
-      id: 9,
-      title: 'LinkedIn : ',
-      description: 'mohanraj5',
-    },
+  
   
     {
       id: 10,
@@ -156,20 +148,46 @@ import {
       title: ' Years Experience in <br /> Nss',
     },
   ];
+  export const certificate = [
+    {
+      id: 1,
+      category: 'certificate',
+      icon: <FaGraduationCap />,
+      year: ' 2023 ',
+      title: 'Full Stack Development <span> Guvi</span>',
+      desc: '',
+      certificatelink : 'https://www.guvi.in/verify-certificate?id=17Dt935g5V91Bo886l',
+
+    },
+    {
+      id: 2,
+      category: 'certificate',
+      icon: <FaGraduationCap />,
+      year: ' 2023 ',
+      title: 'Data Structure <span> Guvi</span>',
+      desc: '',
+      certificatelink : 'https://www.guvi.in/verify-certificate?id=7961gW59e15S3XvC81',
+    },
+    {
+      id: 3,
+      category: 'certificate',
+      icon: <FaGraduationCap />,
+      year: ' 2023 ',
+      title: 'AWS <span> Guvi</span>',
+      desc: '',
+      certificatelink : 'https://www.guvi.in/verify-certificate?id=a6G5cb11ps93978v5t',
+    },
+  
+  
+  
+    
+  ];
   
   export const resume = [
    
    
 
-    {
-      id: 6,
-      category: 'education',
-      icon: <FaGraduationCap />,
-      year: ' 2023 - Present',
-      title: 'Full Stack Development <span> Guvi</span>',
-      desc: 'Currently Pursuing',
-    },
-  
+   
     {
       id: 7,
       category: 'education',
@@ -270,20 +288,27 @@ import {
           desc: ' Make a Notes and lead a better Life',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: ' React js, Node js,Mongodb',
+        },
+        {
           icon: <FiExternalLink />,
-          title: 'Code : ',
+          title: 'Frontend : ',
           desc: 'https://github.com/Mohan51502/Notes_frontend.git',
+          
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Backend : ',
+          desc: 'https://github.com/Mohan51502/Notes_backend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://glittering-fairy-e558b7.netlify.app/',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: ' React js ,Node js, Mongodb',
-        },
+     
   
       ],
     },
@@ -299,20 +324,26 @@ import {
           desc: 'Add ,Update or Delete User from DB',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: ' React js, Node js,Mongodb',
+        },
+        {
           icon: <FiExternalLink />,
-          title: 'Code : ',
+          title: 'Frontend : ',
           desc: 'https://github.com/Mohan51502/crud-frontend.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Backend : ',
+          desc: 'https://github.com/Mohan51502/crud-backend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://dynamic-kataifi-96cdf0.netlify.app/',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: ' React js, Node js,Mongodb',
-        },
+      
   
       ],
     },
@@ -327,20 +358,26 @@ import {
           desc: 'Calculate your expense annd income',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'React JS, Node js ,Mongodb',
+        },
+        {
           icon: <FiExternalLink />,
-          title: 'Code : ',
+          title: 'Frontend : ',
           desc: 'https://github.com/Mohan51502/expanse-frontend.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Backend : ',
+          desc: 'https://github.com/Mohan51502/expanse-backend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://soft-daifuku-49e886.netlify.app',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: 'React JS, Node js ,Mongodb',
-        },
+       
       ],
     },
     {
@@ -354,24 +391,30 @@ import {
           desc: 'Chat with friends who are present in Our DB',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'React JS, Node js ,Mongodb',
+        },
+        {
           icon: <FiExternalLink />,
-          title: 'Code : ',
+          title: 'Frontend : ',
           desc: 'https://github.com/Mohan51502/chat-app-frontend.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Backend : ',
+          desc: 'https://github.com/Mohan51502/chat-app-backend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://lambent-gelato-d12eb5.netlify.app',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: 'React JS, Node js ,Mongodb',
-        },
+       
       ],
     },
     {
-      id: 1,
+      id: 5,
       img: Work14,
       title: 'Zen Class Query Ticketing System',
       details: [
@@ -381,27 +424,33 @@ import {
           desc: 'This App can Solve the Doubts for Students by raising the Query and it will be solved by mentor',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'React JS, Node js ,Mongodb',
+        },
+        {
           icon: <FiExternalLink />,
-          title: 'Code : ',
+          title: 'Frontend : ',
           desc: 'https://github.com/Mohan51502/capstonefrontend.git',
+        },
+        {
+          icon: <FiExternalLink />,
+          title: 'Backend : ',
+          desc: 'https://github.com/Mohan51502/Capstonebackend.git',
         },
         {
           icon: <FiExternalLink />,
           title: 'Preview : ',
           desc: 'https://tranquil-profiterole-c07f73.netlify.app/',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: 'React, Nodejs, MongoDB',
-        },
+      
       ],
     },
     
      
    
     {
-      id: 5,
+      id: 6,
       img: Work8,
       title: 'Nationalize API',
       details: [
@@ -409,6 +458,11 @@ import {
           icon: <FiFileText />,
           title: 'Description : ',
           desc: 'Enter your name and see the probability',
+        },
+        {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'HTML, CSS ,javascript',
         },
         {
           icon: <FiExternalLink />,
@@ -420,11 +474,7 @@ import {
           title: 'Preview : ',
           desc: 'https://boisterous-cannoli-3f1494.netlify.app/',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: 'HTML, CSS ,javascript',
-        },
+       
       ],
     },
     
@@ -442,6 +492,11 @@ import {
           desc: 'It will fetch the API and display flags and countries',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: ' Html,CSS,Javascript',
+        },
+        {
           icon: <FiExternalLink />,
           title: 'Code : ',
           desc: 'https://github.com/Mohan51502/day18.git',
@@ -451,11 +506,7 @@ import {
           title: 'Preview : ',
           desc: 'https://deluxe-cajeta-a8d185.netlify.app/',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: ' Html,CSS,Javascript',
-        },
+       
   
       ],
     },
@@ -472,6 +523,11 @@ import {
           desc: ' Fetch the API and display Tirukural',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'HTML, CSS, JavaScript',
+        },
+        {
           icon: <FiExternalLink />,
           title: 'Code : ',
           desc: 'https://github.com/Mohan51502/Tirukural.git',
@@ -481,11 +537,7 @@ import {
           title: 'Preview : ',
           desc: 'https://melodious-pika-1f44af.netlify.app/',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: 'HTML, CSS, JavaScript',
-        },
+       
       ],
     },
     {
@@ -499,6 +551,11 @@ import {
           desc: ' Simple Shopping App, You can view the price of the book and add to cart',
         },
         {
+          icon: <FaCode />,
+          title: 'Tech Used : ',
+          desc: 'React js',
+        },
+        {
           icon: <FiExternalLink />,
           title: 'Code : ',
           desc: 'https://github.com/Mohan51502/day24.git',
@@ -508,11 +565,7 @@ import {
           title: 'Preview : ',
           desc: 'https://gilded-bubblegum-639a7c.netlify.app/',
         },
-        {
-          icon: <FaCode />,
-          title: 'Tech Used : ',
-          desc: 'React js',
-        },
+     
       ],
     },
     

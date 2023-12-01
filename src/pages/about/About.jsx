@@ -5,10 +5,13 @@ import { FaDownload } from 'react-icons/fa';
 import CV from "../../assets/resume.pdf";
 import "./about.css"
 import Skills from '../../components/Skills';
-import { resume } from '../../data';
+import { certificate, resume } from '../../data';
 import ResumeItem from '../../components/ResumeItem';
 import { Fade, Zoom } from 'react-awesome-reveal';
 import { motion, useScroll } from "framer-motion";
+import { FaEnvelope, FaFacebookF, FaGithub, FaLinkedin, FaPhoneSquareAlt } from 'react-icons/fa';
+import CertificateItem from '../../components/CertificateItem';
+
 
 const About = () => {
   const { scrollYProgress } = useScroll();
@@ -29,13 +32,32 @@ const About = () => {
             </h3>
             <ul className="info__list grid">
               <Info />
-            </ul>
-            <a href={CV} download="" className="button">
-              Download CV <span className='button__icon'>
-                <FaDownload />
-              </span>
+              <div className="contact__socials">
+            <a href="https://www.facebook.com/profile.php?id=100025113729760" className="contact__social-link"
+              target='_blank'
+            >
+              <FaFacebookF />
+            </a>
+            <a href="https://www.linkedin.com/in/mohanraj5/" className="contact__social-link"
+              target='_blank'
+            >
+              <FaLinkedin />
+            </a>
+            <a href="https://github.com/Mohan51502" className="contact__social-link"
+              target='_blank'
+            >
+              <FaGithub />
             </a>
           </div>
+            </ul>
+            <a href="https://drive.google.com/file/d/1WPAWZFCfFL4UpkmVA0RoqpvMnxp3mySk/view?usp=sharing" download="" className="button">
+              Download CV <span className='button__icon'>
+                {/* <FaDownload /> */}
+              </span>
+            </a>
+           
+          </div>
+          
           <Fade direction='up' duration={500} triggerOnce='true'>
             <Zoom duration={500} triggerOnce='true'>
               <div className="stats grid">
@@ -44,7 +66,9 @@ const About = () => {
             </Zoom>
           </Fade>
         </div>
+        
       </section>
+      
       <div className="separator"></div>
       <div className="skills">
         <h3 className="section__subtitle subtitle__center">
@@ -57,14 +81,14 @@ const About = () => {
       <div className="separator"></div>
       <section className="resume">
         <h3 className="section__subtitle subtitle__center">
-           Education
+           Certification
         </h3>
         <div className="resume__container">
           <div className="resume__data">
             {
-              resume.map((val) => {
-                if (val.category === "education") {
-                  return <ResumeItem key={val.id} {...val} />
+              certificate.map((val) => {
+                if (val.category === "certificate") {
+                  return <CertificateItem key={val.id} {...val} />
                 }
               })
             }
@@ -79,6 +103,36 @@ const About = () => {
             }
           </div> */}
         </div>
+      </section>
+      <div className="separator"></div>
+
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">
+           Education
+        </h3>
+        <div className="resume__container">
+          <div className="resume__data">
+            {
+              resume.map((val) => {
+                if (val.category === "education") {
+                  return <ResumeItem key={val.id} {...val} />
+                  
+                }
+              })
+            }
+          </div>
+        
+          {/* <div className="resume__data">
+            {
+              resume.map((val) => {
+                if (val.category === "education") {
+                  return <ResumeItem key={val.id} {...val} />
+                }
+              })
+            }
+          </div> */}
+        </div>
+      
       </section>
     </main>
   )

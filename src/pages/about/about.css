@@ -167,3 +167,6 @@
   line-height: 1.6;
   width: 90%;
 }
+.certificatelink{
+color: var(--first-color);
+}
