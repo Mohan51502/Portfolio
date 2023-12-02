@@ -96,8 +96,7 @@
   display: flex;
 }
 .item__title,
-.item__details,
-.item__details a {
+.item__details {
   color: var(--title-color);
   font-size: var(--small-font-size);
   transition: 0.3s;
@@ -107,6 +106,12 @@
 }
 .item__details a:hover {
   color: var(--first-color);
+}
+.item__details a {
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  transition: 0.3s;
+
 }
 .modal__img {
   width: 100%;
