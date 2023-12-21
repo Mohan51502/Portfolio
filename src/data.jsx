@@ -321,7 +321,7 @@ import {
         {
           icon: <FiFileText />,
           title: 'Description: ',
-          desc: 'Add ,Update or Delete User from DB',
+          desc: 'Add ,Read ,Update or Delete User from DB',
         },
         {
           icon: <FaCode />,
@@ -355,7 +355,7 @@ import {
         {
           icon: <FiFileText />,
           title: 'Description : ',
-          desc: 'Calculate your expense annd income',
+          desc: 'Calculate your expense and income',
         },
         {
           icon: <FaCode />,
@@ -388,7 +388,7 @@ import {
         {
           icon: <FiFileText />,
           title: 'Description : ',
-          desc: 'Chat with friends who are present in Our DB',
+          desc: 'Chatting app allows you to communicate with your customers in web chat rooms',
         },
         {
           icon: <FaCode />,

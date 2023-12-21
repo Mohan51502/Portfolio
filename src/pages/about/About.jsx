@@ -50,7 +50,7 @@ const About = () => {
             </a>
           </div>
             </ul>
-            <a href="https://drive.google.com/file/d/1WPAWZFCfFL4UpkmVA0RoqpvMnxp3mySk/view?usp=sharing" target="_blank" download="" className="button">
+            <a href="https://drive.google.com/file/d/1LeaD3toCj1jFuy0NELuMZEBt3uTNK7Z_/view?usp=sharing" target="_blank" download="" className="button">
               Download CV <span className='button__icon'>
                 {/* <FaDownload /> */}
               </span>
