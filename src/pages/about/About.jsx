@@ -11,6 +11,7 @@ import { Fade, Zoom } from 'react-awesome-reveal';
 import { motion, useScroll } from "framer-motion";
 import { FaEnvelope, FaFacebookF, FaGithub, FaLinkedin, FaPhoneSquareAlt } from 'react-icons/fa';
 import CertificateItem from '../../components/CertificateItem';
+import { experience } from '../../data';
 
 
 const About = () => {
@@ -50,7 +51,7 @@ const About = () => {
             </a>
           </div>
             </ul>
-            <a href="https://drive.google.com/file/d/1LeaD3toCj1jFuy0NELuMZEBt3uTNK7Z_/view?usp=sharing" target="_blank" download="" className="button">
+            <a href="" target="_blank" download="" className="button">
               Download CV <span className='button__icon'>
                 {/* <FaDownload /> */}
               </span>
@@ -134,6 +135,35 @@ const About = () => {
         </div>
       
       </section>
+      <div className="separator"></div>
+      {/* <section className="resume">
+        <h3 className="section__subtitle subtitle__center">
+           Experience
+        </h3>
+        <div className="resume__container">
+          <div className="resume__data">
+            {
+              experience.map((val) => {
+                if (val.category === "experience") {
+                  return <ResumeItem key={val.id} {...val} />
+                  
+                }
+              })
+            }
+          </div>
+        
+          <div className="resume__data">
+            {
+              resume.map((val) => {
+                if (val.category === "education") {
+                  return <ResumeItem key={val.id} {...val} />
+                }
+              })
+            }
+          </div>
+        </div>
+      
+      </section> */}
     </main>
   )
 }

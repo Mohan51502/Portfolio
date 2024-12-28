@@ -10,7 +10,7 @@ import { motion, useScroll } from "framer-motion";
 const Home = () => {
   const { scrollYProgress } = useScroll();
   const [text] = useTypewriter({
-    words: ["Full Stack Developer", "Professional Coder", "UI Designer"],
+    words: ["Full Stack Developer", "UI Designer", "Technical Support Engineer", ],
     loop: true,
     typeSpeed: 100,
     deleteSpeed: 10,
@@ -21,7 +21,7 @@ const Home = () => {
       <motion.div
         className="progressBar"
         style={{ scaleX: scrollYProgress }}
-      />
+      /> 
       <Fade className='zIndex'>
         <img src='https://i.etsystatic.com/15809011/r/il/06dba3/3191137306/il_1140xN.3191137306_4j2h.jpg' alt="" className='home__img' />
       </Fade>
@@ -38,11 +38,9 @@ const Home = () => {
             </p>
           </h1>
           <p className="home__description">
-          I am a highly motivated and adaptable professional seeking to transition into a new career in the software profession. I
-am eager to leverage my transferable skills and passion for the IT industry to make a positive impact in a new role. I am
-confident in my ability to excel in a new environment and contribute to the success of my team and organisation. I am
-committed to continuous learning and development and excited to embrace new challenges and opportunities in my
-career.
+          As a highly skilled WMS consultant specializing in JDA Discrete, I pride myself on my open-minded, goal-oriented approach. I thrive on challenges and am adaptable to learning new technologies. My stress tolerance ensures I remain focused and productive even in high-pressure situations.
+
+Currently fascinated with IT programming, I have knowledge of HTML, CSS, JavaScript, Git, Node JS, SQL, PL/SQL, Mongo DB, JDA Discrete, JDA Integrator, MOCA.
 
           </p>
           <Link to="/about" className='button'>

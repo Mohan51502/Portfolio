@@ -67,12 +67,12 @@ import {
       path: '/about',
     },
   
-    {
-      id: 3,
-      name: 'Projects',
-      icon: <FaFolderOpen className='nav__icon' />,
-      path: '/portfolio',
-    },
+    // {
+    //   id: 3,
+    //   name: 'Projects',
+    //   icon: <FaFolderOpen className='nav__icon' />,
+    //   path: '/portfolio',
+    // },
   
     {
       id: 4,
@@ -139,13 +139,14 @@ import {
   export const stats = [
     {
       id: 1,
-      no: 'Fresher',
-      title: 'Looking for great  <br /> Opportunity',
+      no: 'Expert in JDA Discrete',
+      title: 'JDA Integrator',
+      // Looking for great  <br /> Opportunity
     },
     {
       id: 4,
       no: '2+',
-      title: ' Years Experience in <br /> Nss',
+      title: ' Years Experience  <br /> ',
     },
   ];
   export const certificate = [
@@ -214,6 +215,37 @@ import {
       desc: 'Scored 91.6% ',
     },
   ];
+  export const experience = [
+   
+   
+
+   
+    {
+      id: 7,
+      category: 'experience',
+      icon: <FaBriefcase />,
+      year: '2021 -  2023',
+      title: 'BE  <span> Dr.Mahalingam College of Engineering and Technology </span>',
+      desc: 'Scored 83%',
+    },
+    {
+      id: 8,
+      category: 'experience',
+      icon: <FaBriefcase />,
+      year: '2016-2017',
+      title: 'HSC <span> Oxford Matric Higher Secondary School </span>',
+      desc: 'Scored 85% ',
+    },
+  
+    {
+      id: 9,
+      category: 'experience',
+      icon: <FaBriefcase />,
+      year: '2014-2015',
+      title: 'SSLC <span> Oxford Matric Higher Secondary School </span>',
+      desc: 'Scored 91.6% ',
+    },
+  ];
   
   export const skills = [
     {
@@ -248,11 +280,7 @@ import {
       title: 'NodeJs',
       percentage: '75',
     },
-    {
-      id: 8,
-      title: 'ExpressJs',
-      percentage: '85',
-    },
+   
     {
       id: 9,
       title: 'MongoDB',
@@ -271,7 +299,23 @@ import {
     {
       id: 10,
       title: 'MySql',
+      percentage: '80',
+    },{
+      id: 14,
+      title: 'JDA Discrete',
+      percentage: '70',
+    },{
+      id: 15,
+      title: 'WLM',
       percentage: '60',
+    },{
+      id: 16,
+      title: 'Integrator',
+      percentage: '60',
+    },{
+      id: 17,
+      title: 'MOCA',
+      percentage: '50',
     },
   
   ];

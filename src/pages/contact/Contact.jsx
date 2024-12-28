@@ -71,7 +71,7 @@ const Contact = () => {
                 </h4>
               </div>
             </div>
-            <div className="info__item">
+            {/* <div className="info__item">
               <FaPhoneSquareAlt className='info__icon' />
               <div>
                 <span className='info__title'>
@@ -81,7 +81,7 @@ const Contact = () => {
                   +91-9080930652
                 </h4>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="contact__socials">
             <a href="https://www.facebook.com/profile.php?id=100025113729760" className="contact__social-link"
